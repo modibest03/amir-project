@@ -1,0 +1,35 @@
+.box {
+  height: 100vh;
+  display: flex;
+
+
+
+
+  &__pic{
+    flex: 1;
+    padding: 0 3rem;
+  }
+
+}
+.info{
+    flex: 1;
+    background-color: #FFFFFF;
+    flex-direction: column;
+  }
+
+  .info4{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .btn{
+      text-decoration: none;
+      position: absolute;
+      color: #fff;
+width: 105px;
+height: 43px;
+padding: 1.5rem 3rem;
+left: 43rem;
+background-color: #F2994A;
+border-radius: 12px;
+  }

@@ -1,0 +1,51 @@
+.header{
+    padding: 3rem 15rem;
+}
+
+.about{
+    background-color: #F2F2F2;
+    width: 348px;
+    height: 450px;
+    border-radius: 12px;
+    padding: 2rem;
+}
+.img{
+    width: 120.7px;
+    height: 130.91px;
+    border-radius: 25px;
+}
+
+.div{
+    display: flex;
+    font-size: 26px;
+    background-color: #F2F2F2;
+    width: 124px;
+    justify-content: space-around;
+    position: absolute;
+    top: 9rem;
+    left: 13rem;
+    border: 1px solid #828282;
+    border-radius: 8px;
+
+}
+.picp{
+    position: relative;
+    margin-bottom: 4rem;
+}
+.price-box{
+    display: flex;
+    font-size: 14px;
+    padding: 7px 10px;
+    margin-bottom: 5px;
+    border-top: 1px solid #BDBDBD;
+}
+.shipping{
+    flex: 1;
+}
+
+.footer{
+    text-align: center;
+}
+.t{
+    color: #828282;
+}

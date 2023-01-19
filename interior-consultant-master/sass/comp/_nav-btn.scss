@@ -1,0 +1,120 @@
+.nav-btn {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  &__background {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: aliceblue;
+  }
+
+  &__back {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    background-color: #181719;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+  }
+
+  &__input{
+        display: none;
+  }
+
+  &__input:checked ~ &__back{
+    transform: scale(100);
+    opacity: 1;
+    z-index: 1;
+  }
+  &__input:checked ~ &__nav{
+    opacity: 1;
+    z-index: 2;
+    backface-visibility: visible;
+    display: block;
+  }
+
+  &__label {
+    padding: 10px;
+    top: -10px;
+    right: 10px;
+    z-index: 9999;
+    position: absolute;
+    opacity: 0;
+    display: none;
+    backface-visibility: hidden;
+    @include phone{
+        opacity: 1;
+        display: block;
+        right: -90px;
+    }
+    @include phone3 {
+      right: -120px;
+      }
+    @include phone1 {
+      right: -125px;
+      }
+    @include phone2 {
+      right: -125px;
+      }
+  }
+  &__nav{
+    position:absolute;
+    top:10px;
+    right:0;
+    opacity: 0;
+    display: none;
+    backface-visibility: hidden;
+z-index: 2;
+@include phone{
+top: 10rem;
+right: -0.5rem;
+}
+@include phone1{
+top: 10rem;
+right: -3.3rem;
+}
+@include phone2{
+top: 10rem;
+right: -2.5rem;
+}
+@include phone3{
+top: 10rem;
+right: -3.5rem;
+}
+ 
+  &--list{
+    list-style: none;
+    padding: 30px;
+    @include phone{
+      display: grid;
+      text-align: center;
+    }
+}
+&--items{
+    display: inline-block;
+    padding-right: 20px;
+    @include phone{
+        margin-bottom: 30px;
+    }
+}
+
+&--link{
+    text-decoration: none;
+    color: #FFFFFF;
+
+    @include phone{
+        font-size: 50px;
+        z-index: 2;
+       
+    }
+    &:hover{
+        border-bottom: 1px solid #FFFFFF;
+        padding: 8px 0;
+    }
+}
+}
+
+}

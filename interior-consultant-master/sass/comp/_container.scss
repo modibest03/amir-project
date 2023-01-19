@@ -1,0 +1,39 @@
+.container {
+  display: inline-block;
+  cursor: pointer;
+
+  &__bar1,
+  &__bar2,
+  &__bar3 {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+}
+
+.change {
+  .container {
+    &__bar1,
+    &__bar2,
+    &__bar3 {
+      width: 35px;
+      height: 5px;
+      margin: 6px 0;
+      background-color: #fff;
+    }
+  }
+}
+
+.change .container__bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .container__bar2 {
+  opacity: 0;
+}
+
+.change .container__bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}

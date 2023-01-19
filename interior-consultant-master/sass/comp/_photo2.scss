@@ -1,0 +1,85 @@
+.photo2 {
+  position: relative;
+  width: 415px;
+  height: 200px;
+  left: 47rem;
+  top: 7rem;
+  margin: -11rem;
+  background: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+
+  @include phone {
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    top: 41rem;
+    left: 185px;
+    margin-left: 0;
+    margin-top: -100px;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  @include phone2 {
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    top: 41rem;
+    left: 180px;
+    margin-left: 0;
+    margin-top: -100px;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  @include phone1 {
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    top: 40rem;
+    left: 170px;
+    margin-left: 0;
+    margin-top: -100px;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+
+  &__img {
+    padding: 20px 30px;
+  }
+  &__ikg {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    top: 0;
+    left: 10px;
+  }
+
+  &__text {
+    font-size: 20px;
+    flex-grow: 1;
+    align-self: center;
+    line-height: 30px;
+    @include phone {
+      font-size: 19px;
+    }
+  }
+
+  &__text2 {
+    padding: 0 19px 20px;
+    line-height: 1.5rem;
+    @include phone {
+      font-size: 18px;
+    }
+  }
+}

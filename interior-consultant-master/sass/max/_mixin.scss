@@ -1,0 +1,12 @@
+@mixin phone{
+    @media (max-width:450px) {@content;}
+}
+@mixin phone1{
+    @media (max-width:375px) {@content;}
+}
+@mixin phone2{
+    @media (max-width:395px) {@content;}
+}
+@mixin phone3{
+    @media (max-width:360px) {@content;}
+}

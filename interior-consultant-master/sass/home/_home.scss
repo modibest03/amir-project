@@ -1,0 +1,17 @@
+.body {
+  padding: 5rem 3rem;
+  background-color: #181719;
+  width: 61rem;
+  @include phone{
+    padding: 1rem 0rem;
+    width: 20rem;
+  }
+}
+.footer {
+  padding: 5rem 3rem;
+  background-color: #181719;
+}
+
+.parent {
+  max-width: 1500px;
+}

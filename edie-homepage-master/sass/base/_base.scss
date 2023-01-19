@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+font-family: 'Heebo', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+background-color: #FFFFFF ;
+position: relative;
+width: 1440px;
+height: 5470px;
+border-radius: 8px;
+@media (max-wdith:375px) {
+position: relative;
+width: 375px;
+height: 6164px;
+}
+}
+.body-1{
+    position: relative;
+    @media (max-wdith:375px) {
+        width: 375px;
+        height: 6164px;
+        }
+}

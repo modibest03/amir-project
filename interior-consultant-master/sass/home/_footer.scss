@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__end{
+        position: absolute;
+        top: 43rem;
+        padding: 10px;
+        font-size: 14px;
+        color: #A9A9A9;
+
+        @include phone{
+            position: absolute;
+            top: 70rem;
+            padding: 10px;
+            left: 124px;
+            font-size: 14px;
+            color: #A9A9A9;
+        }
+     
+        @include phone2{
+            position: absolute;
+            top: 70rem;
+            padding: 10px;
+            left: 102px;
+            font-size: 14px;
+            color: #A9A9A9;
+        }
+        @include phone1{
+            position: absolute;
+            top: 70rem;
+            padding: 10px;
+            left: 85px;
+            font-size: 14px;
+            color: #A9A9A9;
+        }
+        @include phone3{
+            position: absolute;
+            top: 70rem;
+            padding: 10px;
+            left: 70px;
+            font-size: 14px;
+            color: #A9A9A9;
+        }
+
+    }
+
+    &__name{
+        text-decoration: none;
+        color: #A9A9A9;
+    }
+}
